@@ -12,9 +12,9 @@
 void print_python_list_info(PyObject *p)
 {
 	int i;
-	long int size = PYList_Size(p);
+	long int size = PyList_Size(p);
 	PyListObject *list_obj = (PyListObject *)p;
-	const char Elm_type;
+	const char *Elm_type;
 
 	printf("[*] Size of the Python List = %li\n", size);
 	printf("[*] Allocated = %li\n", list_obj->allocated);
