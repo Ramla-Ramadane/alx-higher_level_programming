@@ -3,7 +3,7 @@
 (based on 1-square.py)'''
 
 
-class Square:
+class Square():
     '''The class square'''
     def __int__(self, size=0):
         if type(size) != int:
