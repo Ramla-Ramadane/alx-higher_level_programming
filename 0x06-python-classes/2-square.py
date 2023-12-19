@@ -3,7 +3,7 @@
 (based on 1-square.py)'''
 
 
-class Square():
+class Square:
     '''The class square'''
     def __int__(self, size=0):
         if type(size) != int:
@@ -12,4 +12,5 @@ class Square():
         elif size < 0:
             print("size must be >= 0", end='')
             raise ValueError
-        self.__size = size
+        else:
+            self.__size = size
