@@ -3,7 +3,6 @@
 (based on 4-square.py)'''
 
 
-
 class Square:
     '''The Square class'''
     def __init__(self, size=0):
