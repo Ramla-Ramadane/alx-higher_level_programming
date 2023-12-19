@@ -29,10 +29,10 @@ class Square:
                 print("size must be >= 0", end='')
                 raise ValueError
             else:
-                print("size must be an integer", end='')
-                raise TypeError
-            else:
                 self.__size = value
+        else:
+            print("size must be an integer", end='')
+            raise TypeError
 
     def my_print(self):
         for i in range(0, self.__size):
