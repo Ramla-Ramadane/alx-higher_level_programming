@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+'''Python class MagicClass that does exactly
+the same as the ALX bytecode'''
+
+
 import math
 
 
@@ -8,7 +12,8 @@ class MagicClass:
         if type(radius) != int and type(radius) is not float:
             print("radius must be a number", end='')
             raise TypeError
-        self.__radius = radius
+        else:
+            self.__radius = radius
 
     def area(self):
         return (self.__radius ** 2 * math.pi)
