@@ -7,7 +7,8 @@ class Square:
     '''The class square'''
     def __int__(self, size=0):
         if type(size) != int:
-            raise TypeError("size must be an integer")
+            print("size must be an integer", end='')
+            raise TypeError
         elif size < 0:
             print("size must be >= 0", end='')
             raise ValueError
