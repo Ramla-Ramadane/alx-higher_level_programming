@@ -62,8 +62,9 @@ class Rectangle:
         return (''.join(rectang))
 
     def __repr__(self):
-         return ("Rectangle(" + str(self.__width) + ", " +
-                str(self.__height) + ")")
+        rectang = "Rectangle(" + str(self.__width)
+        rectang += ", " + str(self.__height) + ")"
+        return (rectang)
 
     def __del__(self):
         Rectangle.number_of_instances -= 1
