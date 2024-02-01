@@ -3,6 +3,7 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
+    '''text insertion function'''
     text = ""
     with open(filename) as r:
         for line in r:
