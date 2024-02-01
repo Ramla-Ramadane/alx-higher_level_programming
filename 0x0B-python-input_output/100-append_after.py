@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 '''function that inserts a line of text to a file'''
 
 
