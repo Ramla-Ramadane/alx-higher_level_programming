@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""state"""
+'''truncate tables states'''
 
 
-import MySQLdb
 from sys import argv
+import MySQLdb
 
 if __name__ == "__main__":
     database = MySQLdb.connect(user=argv[1],
