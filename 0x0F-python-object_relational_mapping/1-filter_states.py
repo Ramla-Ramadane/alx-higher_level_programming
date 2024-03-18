@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""states"""
+'''lists all states with a name starting with upper N'''
 
 
-import MySQLdb
 from sys import argv
+import MySQLdb
 
 if __name__ == '__main__':
     user = argv[1]
