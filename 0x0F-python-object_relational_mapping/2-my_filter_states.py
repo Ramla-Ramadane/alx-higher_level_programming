@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""states"""
+'''script that takes in an argument and displays all values in the states'''
 
 
-import MySQLdb
 from sys import argv
+import MySQLdb
 
 if __name__ == '__main__':
     user = argv[1]
